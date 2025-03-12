@@ -18,7 +18,7 @@ public class FPSInput : MonoBehaviour
 
     void Awake()
     {
-        Messenger<float>.AddListener(GameEvent.SPEED_CHANGED, OnSpeedChanged);
+        Messenger<int>.AddListener(GameEvent.SPEED_CHANGED, OnSpeedChanged);
     }
     void OnDestroy()
     {
