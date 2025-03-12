@@ -30,7 +30,7 @@ public class FPSInput : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float deltaX = Input.GetAxis("Vertical") * speedPlayer; ;
         float deltaZ = -Input.GetAxis("Horizontal") * speedPlayer;
