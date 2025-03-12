@@ -1,6 +1,7 @@
 
 class Person {
 
+    // Second commit in Shustov branch
     private String name;
 
     public String getName() {
@@ -9,6 +10,14 @@ class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
 }
